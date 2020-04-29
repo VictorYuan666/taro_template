@@ -1,0 +1,21 @@
+{
+  "extends": ["taro", "prettier", "plugin:react/recommended", "prettier/react"],
+  "parser": "babel-eslint",
+  "plugins": ["react", "babel", "react-hooks"],
+  "rules": {
+    "no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "Taro"
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx", ".tsx"]
+      }
+    ],
+    "import/prefer-default-export": 0,
+    "react/no-multi-comp": 0
+  }
+}

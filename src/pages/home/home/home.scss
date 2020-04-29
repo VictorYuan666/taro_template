@@ -1,0 +1,47 @@
+.page {
+  background-color: #f5f6f8;
+  min-height: 1206px;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 16px;
+  margin: 24px;
+  padding: 14px 32px;
+}
+
+.selectLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.stationName {
+  font-size: 28px;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
+}
+
+.arrow {
+  width: 14px;
+  height: 24px;
+}
+
+.at-tabs__item-underline {
+  background-color: red;
+}
+
+.InfoPane {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
